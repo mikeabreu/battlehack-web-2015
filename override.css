@@ -8,6 +8,9 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1dc39', endColorstr='#71b823',GradientType=1 ); /* IE6-9 */
     border:none;
 }
+#main-header-nav.login-nav {
+    background: #68b500;
+}
 
 .form-control {
     border-radius:3px;
@@ -97,10 +100,14 @@
     border-color: #9CB93B;
     border: 3px solid;
     height: 30%;
-    width: 50%;
+    width: 25%;
     font-size: x-large;
     padding: 2%;
     margin-bottom:4%;
+}
+#start-donating-today-button:hover {
+    color: white;
+    background-color: #68b500;
 }
 
 .image-grid img {
@@ -133,4 +140,36 @@
     font-size: 3rem;
 }
 
+.nav-spacing {
+    margin-right: 10%;
+    margin-left: 10%;
+}
 
+/* Footer */
+#footer {
+    font-size: 1.8rem;
+    color: white;
+    background: rgb(65,65,67);
+}
+#footer .footer-col-3 img {
+    display: block;
+    max-width: 300px;
+    padding-bottom: 50px;
+}
+.image-grid p {
+    color: white;
+    visibility: hidden;
+}
+.image-grid > div:hover p {
+    visibility: visible;
+}
+#login-body {
+    background-color: #68b500;
+}
+.jumbotron.no-image {
+    background: #68b500;
+    margin-bottom: 0;
+}
+.nofucks {
+    background: #68b500;
+}
